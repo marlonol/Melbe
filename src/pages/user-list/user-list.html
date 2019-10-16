@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Usuários Melbe</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <ion-list>
+    <ion-item-sliding *ngFor="let user of users">
+      <ion-item (click)="openUser(user.id)">
+        <ion-avatar item-start>
+          <img src="{{ user.avatar }}">
+        </ion-avatar>
+        <h2>{{ user.first_name }} {{ user.last_name }}</h2>
+      </ion-item>
+    </ion-item-sliding>
+    <ion-item>
+      <button ion-button block (click)="getUsers()" icon-start><ion-icon name="arrow-round-down"></ion-icon>Mostar Mais</button>
+    </ion-item>
+    
+  </ion-list>
+
+  
+</ion-content>

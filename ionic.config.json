@@ -1,0 +1,7 @@
+{
+  "name": "Melbe",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
