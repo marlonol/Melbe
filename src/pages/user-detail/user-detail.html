@@ -8,8 +8,9 @@
   <div text-center>
       <img src="{{ user.avatar }}">
     <h2>{{ user.first_name }} {{ user.last_name }}</h2>
-    <p><b>Identificação: </b>{{ user.id }} </p>
     <p><b>Email: </b>{{ user.email }} </p>
+    <p><b>Identificação: </b>{{ user.id }} </p>
+    
     
     <button ion-button block onclick="location.href='mailto:usuario@usuario.com?subject=teste';" icon-start><ion-icon name="mail"></ion-icon>Enviar E-Mail!</button>
   </div>

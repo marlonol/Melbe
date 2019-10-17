@@ -5,5 +5,19 @@
 </ion-header>
 
 <ion-content padding>
-  <button ion-button block (click)="openListUsers()" icon-start><ion-icon name="people"></ion-icon>Lista de usuários</button>
+  
+  <h2>Login</h2>
+
+  <div class="central">
+    <ion-item>
+      <ion-label><ion-icon name="person"></ion-icon> Email: </ion-label>
+      <ion-input type="text" #usuario></ion-input>            
+    </ion-item>
+    <ion-item>
+      <ion-label><ion-icon name="lock"></ion-icon> Senha: </ion-label>
+      <ion-input type="password" #senha></ion-input>            
+    </ion-item>  
+    <button class="botao" ion-button block (click)="openListUsers()" icon-start><ion-icon name="people"></ion-icon>Acessar Usuários</button>  
+    <p class="textos"><a (click)="recover()">ESQUECI MINHA SENHA</a></p>
+  </div>
 </ion-content>

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
 import { UsersProvider } from './../../providers/users/users'
-import { ViewChild } from '@angular/core'
+import { HomePage } from '../home/home';
 
 @IonicPage()
 @Component({
@@ -45,5 +45,9 @@ export class UserListPage {
         .then((result: any) => {
           this.navCtrl.setRoot('UserDetailPage', { user: result.data })
         })            
+    }
+
+    logout(){
+      this.navCtrl.setRoot(HomePage)
     }
 }

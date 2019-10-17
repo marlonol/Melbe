@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "313409252431",
+    "firebase_url": "https://melbe-ba4f4.firebaseio.com",
+    "project_id": "melbe-ba4f4",
+    "storage_bucket": "melbe-ba4f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313409252431:android:807b8fc136b87342680e3a",
+        "android_client_info": {
+          "package_name": "com.melbe.pushionicteste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313409252431-vr1731o1gatq5e99ja7na0n3991gueu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3AOFPmyygdsAcpodcLJbWFVxE5Cg1iO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313409252431-vr1731o1gatq5e99ja7na0n3991gueu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
